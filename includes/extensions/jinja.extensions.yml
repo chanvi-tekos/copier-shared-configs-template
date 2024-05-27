@@ -1,0 +1,2 @@
+_jinja_extensions:
+  - cookiecutter.extensions.RandomStringExtension
