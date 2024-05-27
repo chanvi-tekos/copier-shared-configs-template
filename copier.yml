@@ -1,4 +1,4 @@
-_subdirectory: "template"
+_answers_file: .copier-answers.shared-configs.yml
 _templates_suffix: ".jinja"
 _min_copier_version: "9.0.0"
 
