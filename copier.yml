@@ -1,5 +1,5 @@
 _answers_file: .copier-answers.shared-configs.yml
-_subdirectory: "shared-configs"
+_subdirectory: "template"
 _templates_suffix: ".jinja"
 _min_copier_version: "9.0.0"
 
@@ -17,8 +17,8 @@ _envops:
 _exclude:
   - copier.yml
 
-# # Questions
-# use_precommit:
-#   help: Do you want to use pre-commit?
-#   type: bool
-#   default: true
+# Questions
+use_precommit:
+  help: Do you want to use pre-commit?
+  type: bool
+  default: true
