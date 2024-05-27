@@ -1,0 +1,24 @@
+_subdirectory: "template"
+_templates_suffix: ".jinja"
+_min_copier_version: "9.0.0"
+
+# Configure jinja2 defaults to make syntax highlighters lives easier
+_envops:
+  block_end_string: "%}"
+  block_start_string: "{%"
+  comment_end_string: "#}"
+  comment_start_string: "{#"
+  keep_trailing_newline: true
+  variable_end_string: "}}"
+  variable_start_string: "{{"
+
+# Some configurations
+_exclude:
+  - includes
+  - copier.yml
+
+# # Questions
+# use_precommit:
+#   help: Do you want to use pre-commit?
+#   type: bool
+#   default: true
