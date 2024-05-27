@@ -15,7 +15,6 @@ _envops:
 
 # Some configurations
 _exclude:
-  - shared-configs
   - copier.yml
 
 # # Questions
